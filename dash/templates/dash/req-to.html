@@ -161,13 +161,13 @@
             <!-- Sidebar (Fixed Column Navbar)-->
             <div class="bg-dark text-white shadow mt-1"style="width:100% ; height:100vh" >
                 <ul class="pt-5 unstyled-list bg-dark" style="position:fixed ; width: 15%; height: 100vh;">
-                    <li class="pt-5 active"><a href="index.html"> <i class="fas fa-home f-20 ml-3 mr-3"></i> Home </a> </li>
+                    <li class="pt-5 active"><a href="{%url 'dashboard'%}"> <i class="fas fa-home f-20 ml-3 mr-3"></i> Home </a> </li>
                     <li class="pt-5"><a href="donate.html"><i class="fas fa-comments ml-3 mr-3 fa-lg"></i> Donate Now</a> </li>
                     <li class="pt-5"><a href="chat.html"><i class="fas fa-comments ml-3 mr-3 fa-lg"></i> Chat</a> <span class="badge badge-primary">3</span></li>
                     <li class="pt-5"><a href="edit.html"><i class="fas fa-cogs f-20 ml-3 mr-3"></i> Edit Profile</a></li>
                     <li class="pt-5"><a href="{%url 'requests' %}"><i class="fas fa-sign-out-alt f-20 ml-3 mr-3"></i>All Requests <span class="badge bg-danger text-white ml-3">2 new</span>  </a></li>
                     <li class="pt-5"><a href="{%url 'logout' %}"><i class="fas fa-sign-out-alt f-20 ml-3 mr-3"></i> Log Out</a></li>
-                    <li class="pt-5"><a href="../homePage/index.html"><i class="fas fa-sign-out-alt f-20 ml-3 mr-3"></i> Home Page</a></li>
+                    <li class="pt-5"><a href="{%url 'home' %}"><i class="fas fa-sign-out-alt f-20 ml-3 mr-3"></i> Home Page</a></li>
 
                 </ul>
             </div>

@@ -35,8 +35,14 @@ def accept_request(request,id):
     obj.save()
     return redirect('requests')
 
+
 def refuse_request(request,id):
     obj = Request.objects.get(id=id)
     obj.case = False
     obj.save()
     return redirect('requests')
+
+
+def edit(request):
+    return render(request, 'dash/edit.html', {})
+
