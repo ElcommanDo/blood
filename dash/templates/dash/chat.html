@@ -1,0 +1,464 @@
+<html>
+   <head>
+	   <!--TO Support Many Language Include Arabic Language-->
+        <meta charset="utf-8"/>
+	   
+	   <!--For Internet Explorer-->
+	    <meta http-equiv="X-UA-	Compatible"content="IE=edge">
+	   
+	   <!--First mobilw meta-->
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	   
+        <title> Bloodia</title>
+        <link   
+             rel = "icon" 
+            href ="img/logo.png" 
+            type = "image/x-icon">
+        <link rel="shortcut icon" href="img/final logo-06.png">
+        <!--call bootstrap-->
+	    <link rel="stylesheet"href="css/bootstrap.css"/>
+        <!--Page Style-->	   
+        <link rel="stylesheet"href="css/main.css"/>
+       <!--Animate.css-->
+       <link rel="stylesheet"href="css/animate.min.css"/>
+       <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>        
+       <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">       
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+       <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
+       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	   <!--Internet Explorer-->
+	    <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+
+       <!---->
+       
+       <style>
+           .card {
+               margin-top: 2rem !important;
+           }
+           .img-icon-size {
+                width: 8rem;
+            }
+            .nav-icon-color {
+                color: #17a2b8;
+            }
+            .nav-icon-bg-color , .btn-success {
+                background-color: #17a2b8;
+            }
+            form {
+                padding-top: 0rem !important;
+            }
+       </style>
+    </head>
+    
+ <!----------- Start NavBar Section ----------->
+    <nav class="nav-icon-bg-color  pb-0 fixed-top">
+        <div class="container-fluid">
+            <div class="our-nav d-flex" style="flex-wrap: wrap;justify-content: space-between;">
+
+                <div class="left-nav">
+                    <ul class="d-flex justify-content-end unstyled-list pt-4 pr-5">
+                        <li class="pt-1 mr-3 slide-in">
+                            <span class="icon-bullet">
+                                <i class="fas fa-sliders-h text-white fa-lg"></i>
+                            </span>
+                        </li>
+                        <li class="pt-1 mr-3 slide-out hidden">
+                            <span class="icon-bullet">
+                                <i class="fas fa-sliders-h text-white fa-lg"></i>
+                            </span>
+                        </li>
+                        <li class="">
+                            <a href="index.html">
+                                <h2 class="text-white">Bloodia</h2>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right-nav">
+                    
+                    <ul class="d-flex justify-content-end unstyled-list">
+
+                        <li class="pt-4 pr-3 ">
+                            <a class="badge y" href="chat.html" class="icon-bullet">
+                                <i  style="font-size: 18px;" class="fas fa-comments text-white fa-lg"></i>
+                            </a>
+                        </li>
+
+
+                        <li class="pt-4 pr-5 dropdown">
+                            <a class="badge x" style="cursor: pointer;">
+                                <i  style="font-size: 18px;" class="fas fa-bell text-white fa-lg"></i>
+                            </a>
+                            <!---- Style in dropdown.scss(for dropdown styles) and notifiaction-num.scss(for number appear top of icon) ----->
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <div class="d-flex justify-content-between" style="">
+                                        <img src="img/icons/Artboard 7_users.svg"  alt="" style=" width: 20px;
+                                                                                                    height: 20px;
+                                                                                                    border-radius: 50%;
+                                                                                                    border: 1px solid #777;">
+                                        <div>
+                                            <span class="pl-3">Mohamed</span>
+                                            <div style="font-size: 10px;">Mohamed Ahmed Accept Your Donation Request Go To Request page to follow this request</div>
+                                            <div class="d-flex justify-content-end">
+                                                <span class="" style="font-size: 8px;">2 min ago</span> 
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="d-flex justify-content-between" style="">
+                                        <img src="img/icons/Artboard 7_users.svg"  alt="" style=" width: 20px;
+                                                                                                    height: 20px;
+                                                                                                    border-radius: 50%;
+                                                                                                    border: 1px solid #777;">
+                                        <div>
+                                            <span class="pl-3">Ahmed Mohamed</span>
+                                            <div style="font-size: 10px;">Ahmed Sent Donation Request Go to request page to follow it</div>
+                                            <div class="d-flex justify-content-end">
+                                                <span class="" style="font-size: 8px;">2 min ago</span> 
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>                                                                                          
+                            </ul>
+                        </li>
+                        <li class="pt-2 pr-5 dropdown2">
+                            <a style="cursor: pointer;">
+                                <img src="img/cmt2.jpg" alt="User" class="navbar-nav__img rounded-circle" >
+                                <span class="cursor-pointer text-white pl-3 lead ">Mohamed Ahmed</span>
+                            </a>
+
+                            <!---- Style in dropdown.scss(for dropdown styles) and notifiaction-num.scss(for number appear top of icon) ----->
+                            <ul class="dropdown-menu2 unstyled-list" style="display: none;">
+                                <li style="width: 11rem; cursor: pointer;">
+                                    <div class="d-flex justify-content-between">
+                                        <p>Log Out</p>
+                                        <span><i class="fas fa-sign-out-alt"></i></span>
+                                    </div>
+                                </li>                                                        
+                            </ul>
+                        </li>
+                    </ul> 
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!---------End Navbar Section ------->
+
+    <!-------- Start Body Section ------->
+    <main class="mt-5 d-flex justify-content-between">
+    <!------------ Left Srction ------------->
+        <!----------- Fixed Column Nav ---------->
+        <div class="left" style="width: 15%;" >
+            <!-- Sidebar (Fixed Column Navbar)-->
+            <div class="bg-dark text-white shadow mt-1"style="width:100% ; height:100vh" >
+                <ul class="pt-5 unstyled-list bg-dark" style="position:fixed ; width: 15%; height: 100vh;">
+                    <li class="pt-5 active"><a href="index.html"> <i class="fas fa-home f-20 ml-3 mr-3"></i> Home </a> </li>
+                    <li class="pt-5"><a href="donate.html"><i class="fas fa-comments ml-3 mr-3 fa-lg"></i> Donate Now</a> </li>
+                    <li class="pt-5"><a href="chat.html"><i class="fas fa-comments ml-3 mr-3 fa-lg"></i> Chat</a> <span class="badge badge-primary">3</span></li>
+                    <li class="pt-5"><a href="edit.html"><i class="fas fa-cogs f-20 ml-3 mr-3"></i> Edit Profile</a></li>
+                    <li class="pt-5"><a href="req-to.html"><i class="fas fa-sign-out-alt f-20 ml-3 mr-3"></i>All Requests <span class="badge bg-danger text-white ml-3">2 new</span>  </a></li>
+                    <li class="pt-5"><a href="../Form/login.html"><i class="fas fa-sign-out-alt f-20 ml-3 mr-3"></i> Log Out</a></li>
+                    <li class="pt-5"><a href="../homePage/index.html"><i class="fas fa-sign-out-alt f-20 ml-3 mr-3"></i> Home Page</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="right pt-5" style="width: 84%;">
+
+            <div class="container-fluid">
+
+                <!-------- Chat Box ------->
+                <main class="chat position-fixed" style="width: 82%">
+                    <div class="chat-card bg-white shadow d-flex justify-content-between" style=" padding-top: 25px; padding-bottom: 30px; height: 700px;;">
+                        <!---- Left Side ( Groups name ) ---->
+                        
+                        <!----------- Left Side On Pc --------->
+                        <div class="left-chat pc-chat p-2 pl-5" style="width: 35%; height: 600px; overflow: auto; border-right: 2px solid #000;" >
+
+                            <div class="d-flex justify-content-between  w-100">
+                                <div class="d-flex justify-content-start border-bottom chat__person w-100 pb-3">
+                                    <div class="">
+                                        <img src="img/icons/Artboard 3_users.svg" alt="" style="width: 46px; height:45px ;" class="rounded-circle">
+                                    </div>
+                                    <div class="chat__person--content pl-5 pt-3">
+                                        <h4 class="h4">Mohammed Ahmed</h4>
+                                    </div>
+                                </div> 
+                                
+                                <!-- <div class="p-5">
+                                    <span><i class="fas fa-ellipsis-v"></i></span>
+                                </div> -->
+
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <input type="search" name="" id="" class="form-control border border-primary mb-5 mt-0" placeholder="search For Company">
+                            </div>
+
+                            <div class="d-flex justify-content-start chat__person w-100" onclick="rightSide()">
+                                <div class="">
+                                    <img src="img/icons/Artboard 2_users.svg" alt="" style="width: 46px; height:45px ;" class="rounded-circle">
+                                </div>
+                                <div class="chat__person--content pl-5">
+                                    <h4 class="h4"> Mohamed</h4>
+                                    <p class="text-secondary text-muted">Hi! Sir, How are you. I ask you one thing pl</p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-start chat__person w-100" onclick="rightSide()">
+                                <div class="">
+                                    <img src="img/icons/Artboard 9_users.svg" alt="" style="width: 46px; height:45px ;" class="rounded-circle">
+                                </div>
+                                <div class="chat__person--content pl-5">
+                                    <h4 class="h4"> Mohamed</h4>
+                                    <p class="text-secondary text-muted">Hi! Sir, How are you. I ask you one thing pl</p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-start chat__person w-100" onclick="rightSide()">
+                                <div class="">
+                                    <img src="img/icons/Artboard 3_users.svg" alt="" style="width: 46px; height:45px ;" class="rounded-circle">
+                                </div>
+                                <div class="chat__person--content pl-5">
+                                    <h4 class="h4"> Mohamed</h4>
+                                    <p class="text-secondary text-muted">Hi! Sir, How are you. I ask you one thing pl</p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-start chat__person w-100" onclick="rightSide()">
+                                <div class="">
+                                    <img src="img/icons/Artboard 4_users.svg" alt="" style="width: 46px; height:45px ;" class="rounded-circle">
+                                </div>
+                                <div class="chat__person--content pl-5">
+                                    <h4 class="h4"> Mohamed</h4>
+                                    <p class="text-secondary text-muted">Hi! Sir, How are you. I ask you one thing pl</p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-start chat__person w-100" onclick="rightSide()">
+                                <div class="">
+                                    <img src="img/icons/Artboard 4_users.svg" alt="" style="width: 46px; height:45px ;" class="rounded-circle">
+                                </div>
+                                <div class="chat__person--content pl-5">
+                                    <h4 class="h4"> Mohamed</h4>
+                                    <p class="text-secondary text-muted">Hi! Sir, How are you. I ask you one thing pl</p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-start chat__person w-100" onclick="rightSide()">
+                                <div class="">
+                                    <img src="img/icons/Artboard 4_users.svg" alt="" style="width: 46px; height:45px ;" class="rounded-circle">
+                                </div>
+                                <div class="chat__person--content pl-5">
+                                    <h4 class="h4"> Mohamed</h4>
+                                    <p class="text-secondary text-muted">Hi! Sir, How are you. I ask you one thing pl</p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-start chat__person w-100" onclick="rightSide()">
+                                <div class="">
+                                    <img src="img/icons/Artboard 4_users.svg" alt="" style="width: 46px; height:45px ;" class="rounded-circle">
+                                </div>
+                                <div class="chat__person--content pl-5">
+                                    <h4 class="h4"> Mohamed</h4>
+                                    <p class="text-secondary text-muted">Hi! Sir, How are you. I ask you one thing pl</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-------------- Start Right Side ( Chat Content ) -------------->
+
+                        <div class="right-chat chat-sizes p-2 pl-4 pr-4">
+                            <div class="d-flex justify-content-between  w-100">
+                                <div class="d-flex justify-content-start border-bottom chat__person w-100 mb-2 ">
+                                    <span class="back-btn" id="back-btn"><i class="fas fa-long-arrow-alt-left" style="padding-top: 10px;font-size: 16px;margin-left: 2px; margin-right: 5px;"></i></span>
+                                    <div class="">
+                                        <img src="img/icons/Artboard 9_users.svg" alt="" style="width: 46px; height:45px ;" class="rounded-circle">
+                                    </div>
+                                    <div class="chat__person--content pl-5">
+                                        <h4 class="h4">Mohamed</h4>
+                                    </div>
+                                </div> 
+                                <div class="eps_dots post__content--dropdown m-4 mr-5 text-black">
+                                    <a href="#"><i class="fas fa-ellipsis-v mr-3"></i></a>
+                                    <div class="dropdown-content ">
+                                        <span><i class='uil uil-share-alt'></i>Delete Chat</span>
+                                     </div>																										
+                                </div>
+                            </div>
+                            <div style="overflow: auto; width:100% ; height: 500px;">
+                                <!--- Sending Messages --->
+                                <div class="d-flex justify-content-end align-items-center send pr-3 mb-2">
+                                    <div class="sender-message">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor.
+                                    </div>
+                                </div>
+
+                                <!--- Receiving messages--->
+                            
+                                <div class="d-flex justify-content-start align-items-center recieve mb-2">
+                                    <div class="receiver-message">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor.
+                                    </div>
+
+                                </div>
+
+                                <!--- Receiving messages--->
+
+                                <div class="d-flex justify-content-start align-items-center recieve mb-2">
+                                    <div class="receiver-message">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor.
+                                    </div>
+
+
+                                </div>
+
+
+                                <!--- Receiving messages--->
+
+                                <div class="d-flex justify-content-start align-items-center recieve mb-2">
+                                    <div class="receiver-message">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor.
+                                    </div>
+
+                                </div>
+
+
+                               <!--- Sending Messages --->
+
+                               <div class="d-flex justify-content-end align-items-center send pr-3 mb-2">
+                                    <div class="sender-message">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor.
+                                    </div>
+                                </div>
+
+                                <!--- Receiving messages--->
+
+                                <div class="d-flex justify-content-start align-items-center recieve mb-2">
+                                    <div class="receiver-message">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor.
+                                    </div>
+
+                                </div>
+
+
+                                <!--- Receiving messages--->
+
+                                <div class="d-flex justify-content-start align-items-center recieve mb-2">
+                                    <div class="receiver-message">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor.
+                                    </div>
+
+                                </div>
+
+
+
+                                <!--- Receiving messages--->
+
+                                <div class="d-flex justify-content-start align-items-center recieve mb-2">
+                                    <div class="receiver-message">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor.
+                                    </div>
+
+                                </div>
+
+
+
+
+                                <!--- Receiving messages--->
+
+                                <div class="d-flex justify-content-start align-items-center recieve mb-2">
+                                    <div class="receiver-message">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor.
+                                    </div>
+
+                                </div>
+
+
+
+    
+                                 <!--- Sending Messages --->
+                                 <div class="d-flex justify-content-end align-items-center send pr-3 mb-2">
+
+                                    <div class="sender-message">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor.
+                                    </div>
+                                </div>
+
+                                <!--- Receiving messages--->
+
+                                <div class="d-flex justify-content-start align-items-center recieve mb-2">
+                                    <div class="receiver-message">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor.
+                                    </div>
+
+                                </div>
+
+                                <!--- Receiving messages--->
+
+                                <div class="d-flex justify-content-start align-items-center recieve mb-2">
+                                    <div class="receiver-message">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor.
+                                    </div>
+
+                                </div>
+    
+                                 <!--- Sending Messages --->
+
+                                 <div class="d-flex justify-content-end align-items-center send pr-3 mb-2">
+                                    <div class="sender-message">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor.
+                                    </div>
+                                </div>
+
+                                <!--- Sending Messages --->
+
+                                <div class="d-flex justify-content-end align-items-center send pr-3 mb-2">
+                                    <div class="sender-message">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor.
+                                    </div>
+                                </div>
+
+                                <!--- Receiving messages--->
+
+                                <div class="d-flex justify-content-start align-items-center recieve mb-2">
+                                    <div class="receiver-message">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor.
+                                    </div>
+
+                                </div>
+                            </div>
+                            <textarea name="message" id="message-id"  class="form-control bg-light text-dark border-top shadow" placeholder="write Your Message here ...."></textarea>
+                        </div>
+                    <!----------- write messages --------->
+
+                    </div>
+                </main>
+
+            </div>
+
+        </div>
+    </main>
+
+        </script>
+        <script src="js/particles.js"></script>
+        <script src="js/app.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+        <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
+		<script src="../js/wow.min.js"></script>
+        <script>
+          new WOW().init();
+        </script>
+        <script src="js/jQuery3.3.1.min.js"></script>
+        <!---Slider Laibiray-->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="js/sliderComponents.js"></script>
+        <script src="js/e.js"></script>
+	</body>
+    
+
+
+</html>

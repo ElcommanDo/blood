@@ -1,0 +1,301 @@
+<html>
+   <head>
+	   <!--TO Support Many Language Include Arabic Language-->
+        <meta charset="utf-8"/>
+	   
+	   <!--For Internet Explorer-->
+	    <meta http-equiv="X-UA-	Compatible"content="IE=edge">
+	   
+	   <!--First mobilw meta-->
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	   
+        <title> Bloodia</title>
+        <link   
+             rel = "icon" 
+            href ="img/logo.png" 
+            type = "image/x-icon">
+        <link rel="shortcut icon" href="img/final logo-06.png">
+        <!--call bootstrap-->
+	    <link rel="stylesheet"href="css/bootstrap.css"/>
+        <!--Page Style-->	   
+        <link rel="stylesheet"href="css/main.css"/>
+       <!--Animate.css-->
+       <link rel="stylesheet"href="css/animate.min.css"/>
+       <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>        
+       <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">       
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+       <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
+       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	   <!--Internet Explorer-->
+	    <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+
+       <!---->
+       
+       <style>
+           .card {
+               margin-top: 2rem !important;
+           }
+           .img-icon-size {
+                width: 8rem;
+            }
+            .nav-icon-color {
+                color: #17a2b8;
+            }
+            .nav-icon-bg-color , .btn-success {
+                background-color: #17a2b8;
+            }
+            form {
+                padding-top: 0rem !important;
+            }
+       </style>
+    </head>
+    
+ <!----------- Start NavBar Section ----------->
+    <nav class="nav-icon-bg-color  pb-0 fixed-top">
+        <div class="container-fluid">
+            <div class="our-nav d-flex" style="flex-wrap: wrap;justify-content: space-between;">
+
+                <div class="left-nav">
+                    <ul class="d-flex justify-content-end unstyled-list pt-4 pr-5">
+                        <li class="pt-1 mr-3 slide-in">
+                            <span class="icon-bullet">
+                                <i class="fas fa-sliders-h text-white fa-lg"></i>
+                            </span>
+                        </li>
+                        <li class="pt-1 mr-3 slide-out hidden">
+                            <span class="icon-bullet">
+                                <i class="fas fa-sliders-h text-white fa-lg"></i>
+                            </span>
+                        </li>
+                        <li class="">
+                            <a href="index.html">
+                                <h2 class="text-white">Bloodia</h2>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right-nav">
+                    
+                    <ul class="d-flex justify-content-end unstyled-list">
+
+                        <li class="pt-4 pr-3 ">
+                            <a class="badge y" href="chat.html" class="icon-bullet">
+                                <i  style="font-size: 18px;" class="fas fa-comments text-white fa-lg"></i>
+                            </a>
+                        </li>
+
+
+                        <li class="pt-4 pr-5 dropdown">
+                            <a class="badge x" style="cursor: pointer;">
+                                <i  style="font-size: 18px;" class="fas fa-bell text-white fa-lg"></i>
+                            </a>
+                            <!---- Style in dropdown.scss(for dropdown styles) and notifiaction-num.scss(for number appear top of icon) ----->
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <div class="d-flex justify-content-between" style="">
+                                        <img src="img/icons/Artboard 7_users.svg"  alt="" style=" width: 20px;
+                                                                                                    height: 20px;
+                                                                                                    border-radius: 50%;
+                                                                                                    border: 1px solid #777;">
+                                        <div>
+                                            <span class="pl-3">Mohamed</span>
+                                            <div style="font-size: 10px;">Mohamed Ahmed Accept Your Donation Request Go To Request page to follow this request</div>
+                                            <div class="d-flex justify-content-end">
+                                                <span class="" style="font-size: 8px;">2 min ago</span> 
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="d-flex justify-content-between" style="">
+                                        <img src="img/icons/Artboard 7_users.svg"  alt="" style=" width: 20px;
+                                                                                                    height: 20px;
+                                                                                                    border-radius: 50%;
+                                                                                                    border: 1px solid #777;">
+                                        <div>
+                                            <span class="pl-3">Ahmed Mohamed</span>
+                                            <div style="font-size: 10px;">Ahmed Sent Donation Request Go to request page to follow it</div>
+                                            <div class="d-flex justify-content-end">
+                                                <span class="" style="font-size: 8px;">2 min ago</span> 
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>                                                                                          
+                            </ul>
+                        </li>
+                        <li class="pt-2 pr-5 dropdown2">
+                            <a style="cursor: pointer;">
+                                <img src="img/cmt2.jpg" alt="User" class="navbar-nav__img rounded-circle" >
+                                <span class="cursor-pointer text-white pl-3 lead ">Mohamed Ahmed</span>
+                            </a>
+
+                            <!---- Style in dropdown.scss(for dropdown styles) and notifiaction-num.scss(for number appear top of icon) ----->
+                            <ul class="dropdown-menu2 unstyled-list" style="display: none;">
+                                <li style="width: 11rem; cursor: pointer;">
+                                    <div class="d-flex justify-content-between">
+                                        <p>Log Out</p>
+                                        <span><i class="fas fa-sign-out-alt"></i></span>
+                                    </div>
+                                </li>                                                        
+                            </ul>
+                        </li>
+                    </ul> 
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!---------End Navbar Section ------->
+
+    <!-------- Start Body Section ------->
+    <main class="mt-5 d-flex justify-content-between">
+    <!------------ Left Srction ------------->
+        <!----------- Fixed Column Nav ---------->
+        <div class="left" style="width: 15%;" >
+            <!-- Sidebar (Fixed Column Navbar)-->
+            <div class="bg-dark text-white shadow mt-1"style="width:100% ; height:100vh" >
+                <ul class="pt-5 unstyled-list bg-dark" style="position:fixed ; width: 15%; height: 100vh;">
+                    <li class="pt-5 active"><a href="index.html"> <i class="fas fa-home f-20 ml-3 mr-3"></i> Home </a> </li>
+                    <li class="pt-5"><a href="donate.html"><i class="fas fa-comments ml-3 mr-3 fa-lg"></i> Donate Now</a> </li>
+                    <li class="pt-5"><a href="chat.html"><i class="fas fa-comments ml-3 mr-3 fa-lg"></i> Chat</a> <span class="badge badge-primary">3</span></li>
+                    <li class="pt-5"><a href="edit.html"><i class="fas fa-cogs f-20 ml-3 mr-3"></i> Edit Profile</a></li>
+                    <li class="pt-5"><a href="req-to.html"><i class="fas fa-sign-out-alt f-20 ml-3 mr-3"></i>All Requests <span class="badge bg-danger text-white ml-3">2 new</span>  </a></li>
+                    <li class="pt-5"><a href="../Form/login.html"><i class="fas fa-sign-out-alt f-20 ml-3 mr-3"></i> Log Out</a></li>
+                    <li class="pt-5"><a href="../homePage/index.html"><i class="fas fa-sign-out-alt f-20 ml-3 mr-3"></i> Home Page</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="right pt-0 mt-5 pb-5 bg d-flex justify-content-center" style="width: 84%;">
+            <div class="card form-card" style="width: 60%;">
+                <div class="form-group">
+                    <div class="form-group">
+                        <div class="col-lg-12 form-group mt-5">
+                            <label for="nameID" class="">Name</label>
+                            <input type="text" name="name" id="nameID" class="c-form__control text-secondary" maxlength="60">
+                        </div> 
+                        <div class="col-lg-12 form-group mt-5">
+                            <label for="nameID" class="">Country</label>
+                            <input type="text" name="country" id="country" class="c-form__control text-secondary" maxlength="60">
+                        </div> 
+                        <div class="col-lg-12 form-group mt-5">
+                            <label for="nameID" class="">Number</label>
+                            <input type="tel" name="number" id="number" class="c-form__control text-secondary" maxlength="60">
+                        </div>
+                        <div class="col-lg-12 form-group mt-5">
+                            <label for="nameID" class="">Detailed Address</label>
+                            <input type="text" name="add" id="add" class="c-form__control text-secondary" maxlength="60">
+                        </div> 
+                        <div class="col-lg-12 form-group mt-5">
+                            <label for="job" class="">Blood Type</label>
+                            <select name="blood-type" id="blood-type" class="form-control">
+                                <option value=""> A+ </option>
+                                <option value=""> A- </option>
+                                <option value=""> B+ </option>
+                                <option value=""> B- </option>
+                                <option value=""> AB+ </option>
+                                <option value=""> AB- </option>
+                                <option value=""> O+ </option>
+                                <option value=""> O- </option>
+                            </select>
+                        </div>
+                        <div class="col-lg-12 form-group mt-5">
+                            <label for="passID" class="">Old Password</label>
+                            <input type="password" name="pass" id="passID" class="c-form__control text-secondary" maxlength="60">
+                        </div> 
+                        <div class="col-lg-12 form-group mt-5">
+                            <label for="newpassID" class="">New Password</label>
+                            <input type="password" name="newpass" id="newpassID" class="c-form__control text-secondary" maxlength="60">
+                        </div> 
+                        <div class="col-lg-12 form-group mt-5">
+                            <label for="con-newpassID" class="">Confirm Password</label>
+                            <input type="password" name="con-newpass" id="con-newpassID" class="c-form__control text-secondary" maxlength="60">
+                        </div> 
+                        
+
+                        <div class="form-group d-flex justify-content-center">
+                            <button class="btn btn-primary btn-lg mt-4 pl-5 pr-5 pt-3 pb-3" onclick="success()">Done Editing</button>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!------------ Create select photo and vedios Modal ------------>
+    <div class="modal fade" id="create-select" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="exampleModalLongTitle">Add Photo Or Vedio</h4>
+            </div>
+            <div class="modal-body p-5">
+              <div class="form-group d-flex justify-content-between unstyled-list">
+
+                <label class="container-inp pt-5 ml-4 text-center" id="ph" style="font-size: 14px;">
+                    Photo From pc
+                    <input type="radio" name="check" checked="checked">
+                    <span class="checkmark"></span>
+                </label>
+
+                <label class="container-inp pt-5 ml-4 text-center" id="ved" style="font-size: 14px;">
+                    Photo from URL
+                    <input type="radio" name="check">
+                    <span class="checkmark"></span>
+                </label>
+
+                <label class="container-inp pt-5 ml-4 text-center" id="youtube" style="font-size: 14px;">
+                    Vedio from youtube
+                    <input type="radio" name="check">
+                    <span class="checkmark"></span>
+                </label>
+
+            </div>
+            <input type="text" class="c-form__control" id="youtube-inp" placeholder="YouTube link" style="display:none">
+            <input type="text" class="c-form__control" id="vedio-inp" placeholder=" Vedio link" style="display:none">
+
+
+              <div class="text-center">
+                  <input type="file" name="" id="real-life" hidden="hidden"/>
+                  <button class="btn btn-primary btn-lg" id="choose-btn-pc">Choose photo</button>
+                  <button class="btn btn-primary btn-lg hidden" id="pic-btn">Add photo</button>
+                  <button class="btn btn-primary btn-lg hidden" id="ved-btn">Add Vedio</button>
+
+                  <span id="customTxt"></span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    <!------- End Of Modal-->
+
+        <script src="js/particles.js"></script>
+        <script src="js/app.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+        <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
+		<script src="../js/wow.min.js"></script>
+        <script>
+          new WOW().init();
+        </script>
+        <script src="js/jQuery3.3.1.min.js"></script>
+        <!---Slider Laibiray-->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="js/sliderComponents.js"></script>
+        <script src="js/e.js"></script>
+	</body>
+    
+
+
+</html>
