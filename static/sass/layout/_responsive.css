@@ -1,0 +1,92 @@
+@media (min-width: 767px) {
+  td, th {
+    padding: 20px !important;
+    padding-left: 50px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .left {
+    width: 14% !important;
+  }
+  .right {
+    width: 70% !important;
+  }
+  .card {
+    margin-top: 10rem;
+  }
+  .dropdown2 {
+    display: none;
+  }
+  .our-nav {
+    justify-content: center !important;
+  }
+  .chat {
+    width: 67% !important;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  h3 {
+    font-size: 14px;
+  }
+  h4 {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 992px) {
+  .left {
+    width: 30% !important;
+  }
+  .right {
+    width: 70% !important;
+  }
+  .right-chat {
+    display: none;
+  }
+  .left-chat {
+    width: 100% !important;
+  }
+  #back-btn {
+    display: block;
+  }
+  .form-card {
+    width: 100% !important;
+  }
+  .chat {
+    width: 67% !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .left {
+    width: 40% !important;
+    display: none;
+  }
+  .right {
+    width: 100% !important;
+  }
+  .slide-in {
+    display: none;
+  }
+  .slide-out {
+    display: block;
+  }
+  .chat {
+    margin-top: 8rem !important;
+    width: 96% !important;
+  }
+  .chat-card {
+    margin-top: -38px;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  h3 {
+    font-size: 12px;
+  }
+  h4 {
+    font-size: 10px;
+  }
+}

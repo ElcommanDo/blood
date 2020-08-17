@@ -1,0 +1,56 @@
+.chat {
+    margin-top: 1rem;
+    &__person {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        cursor: pointer;
+        &:hover {
+            background-color: rgba($purple-color,.1) ;
+            border-left:5px solid $purple-color;
+        }
+        
+        &--image {
+            background-color: #FFF;
+            padding: 10px;
+            border-radius: 50%;
+            background-image: url('../images/abdo.jpg');
+            background-size: cover;
+            width: 46px;
+            height: 45px;
+        }
+    }
+    &__header {
+        &:hover {
+            background-color: rgba( $purple-color,.1) ;
+            border-left:5px solid $purple-color ;
+        }
+    }
+
+    .sender-message , .receiver-message {
+        // background-color:$purple-color;
+        padding: 10px;
+        border-radius: 10px;
+        color: #FFF;
+        width: 50%;
+        margin-top: 20px;
+        
+    }
+    .receiver-message {
+        background-color:rgba($purple-color,.1);
+        color: #666;
+    }
+    .sender-message {
+        background-color:rgba($purple-color,.9);    
+    }
+    .chat-sizes {
+        width: 65%; 
+        height: 100vh;
+    }
+    .w-97{
+        width: 97%;
+    }
+    .back-btn {
+        display: none;
+    }
+
+}

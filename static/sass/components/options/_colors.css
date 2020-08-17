@@ -1,0 +1,15 @@
+.green-theme .className {
+  background-color: #27ae60;
+}
+
+.blue-theme .className {
+  background-color: #2980b9;
+}
+
+.red-theme .className {
+  background-color: #c0392b;
+}
+
+.orange-theme .className {
+  background-color: #d35400;
+}

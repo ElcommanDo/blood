@@ -1,3 +1,4 @@
+{%load static %}
 <html>
    <head>
 	   <!--TO Support Many Language Include Arabic Language-->
@@ -14,21 +15,21 @@
              rel = "icon" 
             href ="img/logo.png" 
             type = "image/x-icon">
-        <link rel="shortcut icon" href="img/final logo-06.png">
+        <link rel="shortcut icon" href="{%static 'img/final logo-06.png'%}">
         <!--call bootstrap-->
-	    <link rel="stylesheet"href="css/bootstrap.css"/>
+	    <link rel="stylesheet"href="{%static 'css2/bootstrap.css'%}"/>
         <!--Page Style-->	   
-        <link rel="stylesheet"href="css/main.css"/>
-       <!--Animate.css-->
-       <link rel="stylesheet"href="css/animate.min.css"/>
+        <link rel="stylesheet"href="{%static 'css2/main.css'%}"/>
+       <!--Animate.css2-->
+       <link rel="stylesheet"href="{%static 'css2/animate.min.css'%}"/>
        <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>        
        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">       
        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	   <!--Internet Explorer-->
-	    <script src="js/html5shiv.min.js"></script>
-        <script src="js/respond.min.js"></script>
+	    <script src="{%static 'js/html5shiv.min.js'%}"></script>
+        <script src="{%static 'js/respond.min.js'%}"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
 
        <!---->
@@ -70,7 +71,7 @@
                             </span>
                         </li>
                         <li class="">
-                            <a href="index.html">
+                            <a href="{%url 'dashboard' %}">
                                 <h2 class="text-white">Bloodia</h2>
                             </a>
                         </li>
@@ -95,12 +96,12 @@
                             <ul class="dropdown-menu">
                                 <li>
                                     <div class="d-flex justify-content-between" style="">
-                                        <img src="img/icons/Artboard 7_users.svg"  alt="" style=" width: 20px;
+                                        <img src="{%static 'img/icons/Artboard 7_users.svg'%}"  alt="" style=" width: 20px;
                                                                                                     height: 20px;
                                                                                                     border-radius: 50%;
                                                                                                     border: 1px solid #777;">
                                         <div>
-                                            <span class="pl-3">Mohamed</span>
+                                            <span class="pl-3">{{request.user.username}}</span>
                                             <div style="font-size: 10px;">Mohamed Ahmed Accept Your Donation Request Go To Request page to follow this request</div>
                                             <div class="d-flex justify-content-end">
                                                 <span class="" style="font-size: 8px;">2 min ago</span> 
@@ -111,7 +112,7 @@
                                 </li>
                                 <li>
                                     <div class="d-flex justify-content-between" style="">
-                                        <img src="img/icons/Artboard 7_users.svg"  alt="" style=" width: 20px;
+                                        <img src="{%static 'img/icons/Artboard 7_users.svg'%}"  alt="" style=" width: 20px;
                                                                                                     height: 20px;
                                                                                                     border-radius: 50%;
                                                                                                     border: 1px solid #777;">
@@ -129,7 +130,7 @@
                         </li>
                         <li class="pt-2 pr-5 dropdown2">
                             <a style="cursor: pointer;">
-                                <img src="img/cmt2.jpg" alt="User" class="navbar-nav__img rounded-circle" >
+                                <img src="{%static 'img/cmt2.jpg'%}" alt="User" class="navbar-nav__img rounded-circle" >
                                 <span class="cursor-pointer text-white pl-3 lead ">Mohamed Ahmed</span>
                             </a>
 
@@ -137,7 +138,7 @@
                             <ul class="dropdown-menu2 unstyled-list" style="display: none;">
                                 <li style="width: 11rem; cursor: pointer;">
                                     <div class="d-flex justify-content-between">
-                                        <p>Log Out</p>
+                                        <a href="{%url 'logout' %}">Log Out</a>
                                         <span><i class="fas fa-sign-out-alt"></i></span>
                                     </div>
                                 </li>                                                        
@@ -164,7 +165,7 @@
                     <li class="pt-5"><a href="chat.html"><i class="fas fa-comments ml-3 mr-3 fa-lg"></i> Chat</a> <span class="badge badge-primary">3</span></li>
                     <li class="pt-5"><a href="edit.html"><i class="fas fa-cogs f-20 ml-3 mr-3"></i> Edit Profile</a></li>
                     <li class="pt-5"><a href="req-to.html"><i class="fas fa-sign-out-alt f-20 ml-3 mr-3"></i>All Requests <span class="badge bg-danger text-white ml-3">2 new</span>  </a></li>
-                    <li class="pt-5"><a href="../Form/login.html"><i class="fas fa-sign-out-alt f-20 ml-3 mr-3"></i> Log Out</a></li>
+                    <li class="pt-5"><a href="{%url 'logout' %}"><i class="fas fa-sign-out-alt f-20 ml-3 mr-3"></i> Log Out</a></li>
                     <li class="pt-5"><a href="../homePage/index.html"><i class="fas fa-sign-out-alt f-20 ml-3 mr-3"></i> Home Page</a></li>
 
                 </ul>
@@ -215,15 +216,16 @@
                         </div>
                         <h1>All Bloodia Users</h1>
                         <div class="row  mb-5">
+                            {%for doner in doners %}
                             <div class="col-xl-3 col-sm-6 ">
                                 <div class="card card-common">
                                     <div class="card-body">
                                         <div class="text-center">
-                                            <img src="img/gbr.jpg" class="rounded-circle mb-3" width="100" height="100" class="p-3" alt="">
-                                            <div class="pt-3"><span class="text-dark mr-5" style="font-weight:bolder ; font-size: 16px;">Name : </span><span class="text-muted">Abdo Aref</span>  </div>
-                                            <div class="pt-3"><span class="text-dark mr-5" style="font-weight:bolder ; font-size: 16px;">Blood Type : </span><span class="text-muted">A+</span>  </div>
-                                            <div class="pt-3"><span class="text-dark mr-5" style="font-weight:bolder ; font-size: 16px;">Country :</span><span class="text-muted">Cairo</span>  </div>
-                                            <div class="pt-3"><span class="text-dark mr-5" style="font-weight:bolder ; font-size: 16px;">Number :</span><span class="text-muted">010118878627</span>  </div>
+                                            <img src="{%static 'img/gbr.jpg'%}" class="rounded-circle mb-3" width="100" height="100" class="p-3" alt="">
+                                            <div class="pt-3"><span class="text-dark mr-5" style="font-weight:bolder ; font-size: 16px;">Name : </span><span class="text-muted">{{doner.user.username}}</span>  </div>
+                                            <div class="pt-3"><span class="text-dark mr-5" style="font-weight:bolder ; font-size: 16px;">Blood Type : </span><span class="text-muted">{{doner.blood_type}}</span>  </div>
+                                            <div class="pt-3"><span class="text-dark mr-5" style="font-weight:bolder ; font-size: 16px;">Country :</span><span class="text-muted">{{doner.city}}</span>  </div>
+                                            <div class="pt-3"><span class="text-dark mr-5" style="font-weight:bolder ; font-size: 16px;">Number :</span><span class="text-muted">{{doner.phone}}</span>  </div>
                                         </div>
                                     </div>
                                     <div style="cursor: pointer;" class="card-footer nav-icon-bg-color text-center text-white mt-4"data-toggle="modal" data-target="#donate-modal">
@@ -231,58 +233,8 @@
                                     </div>
                                 </div>
                             </div>
+                            {%endfor%}
 
-                            <div class="col-xl-3 col-sm-6 ">
-                                <div class="card card-common">
-                                    <div class="card-body">
-                                        <div class="text-center">
-                                            <img src="img/gbr.jpg" class="rounded-circle mb-3" width="100" height="100" class="p-3" alt="">
-                                            <div class="pt-3"><span class="text-dark mr-5" style="font-weight:bolder ; font-size: 16px;">Name : </span><span class="text-muted">Abdo Aref</span>  </div>
-                                            <div class="pt-3"><span class="text-dark mr-5" style="font-weight:bolder ; font-size: 16px;">Blood Type : </span><span class="text-muted">A+</span>  </div>
-                                            <div class="pt-3"><span class="text-dark mr-5" style="font-weight:bolder ; font-size: 16px;">Country :</span><span class="text-muted">Cairo</span>  </div>
-                                            <div class="pt-3"><span class="text-dark mr-5" style="font-weight:bolder ; font-size: 16px;">Number :</span><span class="text-muted">010118878627</span>  </div>
-                                        </div>
-                                    </div>
-                                    <div style="cursor: pointer;" class="card-footer nav-icon-bg-color text-center text-white mt-4"data-toggle="modal" data-target="#donate-modal">
-                                        <span style="font-weight: bold;cursor: pointer;">Ask For Donation</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xl-3 col-sm-6 ">
-                                <div class="card card-common">
-                                    <div class="card-body">
-                                        <div class="text-center">
-                                            <img src="img/gbr.jpg" class="rounded-circle mb-3" width="100" height="100" class="p-3" alt="">
-                                            <div class="pt-3"><span class="text-dark mr-5" style="font-weight:bolder ; font-size: 16px;">Name : </span><span class="text-muted">Abdo Aref</span>  </div>
-                                            <div class="pt-3"><span class="text-dark mr-5" style="font-weight:bolder ; font-size: 16px;">Blood Type : </span><span class="text-muted">A+</span>  </div>
-                                            <div class="pt-3"><span class="text-dark mr-5" style="font-weight:bolder ; font-size: 16px;">Country :</span><span class="text-muted">Cairo</span>  </div>
-                                            <div class="pt-3"><span class="text-dark mr-5" style="font-weight:bolder ; font-size: 16px;">Number :</span><span class="text-muted">010118878627</span>  </div>
-                                        </div>
-                                    </div>
-                                    <div style="cursor: pointer;" class="card-footer nav-icon-bg-color text-center text-white mt-4"data-toggle="modal" data-target="#donate-modal">
-                                        <span style="font-weight: bold;cursor: pointer;">Ask For Donation</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xl-3 col-sm-6 ">
-                                <div class="card card-common">
-                                    <div class="card-body">
-                                        <div class="text-center">
-                                            <img src="img/gbr.jpg" class="rounded-circle mb-3" width="100" height="100" class="p-3" alt="">
-                                            <div class="pt-3"><span class="text-dark mr-5" style="font-weight:bolder ; font-size: 16px;">Name : </span><span class="text-muted">Abdo Aref</span>  </div>
-                                            <div class="pt-3"><span class="text-dark mr-5" style="font-weight:bolder ; font-size: 16px;">Blood Type : </span><span class="text-muted">A+</span>  </div>
-                                            <div class="pt-3"><span class="text-dark mr-5" style="font-weight:bolder ; font-size: 16px;">Country :</span><span class="text-muted">Cairo</span>  </div>
-                                            <div class="pt-3"><span class="text-dark mr-5" style="font-weight:bolder ; font-size: 16px;">Number :</span><span class="text-muted">010118878627</span>  </div>
-                                        </div>
-                                    </div>
-                                    <div style="cursor: pointer;" class="card-footer nav-icon-bg-color text-center text-white mt-4"data-toggle="modal" data-target="#donate-modal">
-                                        <span style="font-weight: bold;cursor: pointer;">Ask For Donation</span>
-                                    </div>
-                                </div>
-                            </div>
-                            
                         </div>
                     </div>
                 </div>
@@ -343,21 +295,21 @@
     </div>
   </div>
 
-        <script src="js/particles.js"></script>
-        <script src="js/app.js"></script>
+        <script src="{%static 'js2/particles.js'%}"></script>
+        <script src="{%static 'js2/app.js'%}"></script>
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
         <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
-		<script src="../js/wow.min.js"></script>
+		<script src="{%static 'js2/wow.min.js'%}"></script>
         <script>
           new WOW().init();
         </script>
-        <script src="js/jQuery3.3.1.min.js"></script>
+        <script src="{%static 'js2/jQuery3.3.1.min.js'%}"></script>
         <!---Slider Laibiray-->
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
+		<script src="{%static 'js2/bootstrap.min.js'%}"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script src="js/sliderComponents.js"></script>
-        <script src="js/e.js"></script>
+        <script src="{%static 'js2/sliderComponents.js'%}"></script>
+        <script src="{%static 'js2/e.js'%}"></script>
 	</body>
     
 

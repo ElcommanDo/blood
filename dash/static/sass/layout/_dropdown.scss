@@ -1,0 +1,28 @@
+.dropdown {
+    list-style: none;
+    position: relative;
+}
+
+.dropdown2 {
+    list-style: none;
+    position: relative;
+}
+
+.dropdown-menu,.dropdown-menu2 {
+    position: absolute;
+    background-color: #FFF;
+    top: 6.3rem;
+    color: #000;
+    left: -93px;
+
+
+    li {
+        padding: 8px 14px;
+        width: 20rem;
+
+        &:hover {
+            background-color: rgba($purple-color,0.4);
+        }
+    }
+
+}

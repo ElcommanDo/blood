@@ -1,0 +1,8 @@
+.card-team:before {
+    content: "";
+    border-right: 100px solid transparent;
+    border-top: 100px solid $main-color;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}

@@ -3,12 +3,197 @@
   <component name="ChangeListManager">
     <list default="true" id="53d5a015-ff43-4e06-8cb9-82da2a550ec9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ElcommanDo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ElcommanDo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dash/templates/dash/chat.html" beforeDir="false" afterPath="$PROJECT_DIR$/dash/templates/dash/chat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dash/templates/dash/donate.html" beforeDir="false" afterPath="$PROJECT_DIR$/dash/templates/dash/donate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dash/templates/dash/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/dash/templates/dash/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dash/templates/dash/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dash/templates/dash/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dash/templates/dash/req-to.html" beforeDir="false" afterPath="$PROJECT_DIR$/dash/templates/dash/req-to.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dash/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/dash/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db2.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db2.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/css/base/images/animated-overlay.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/css/base/images/ui-icons_444444_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/css/base/images/ui-icons_555555_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/css/base/images/ui-icons_777620_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/css/base/images/ui-icons_777777_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/css/base/images/ui-icons_cc0000_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/css/base/images/ui-icons_ffffff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/css/base/jquery-ui-1.10.4.custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/css/base/jquery-ui-1.10.4.custom.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/css/main.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/js/dist/app.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/js/dist/app.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/js/dist/e.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/js/dist/e.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/js/e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/js/handlebars-v4.7.6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/js/html5shiv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/js/jQuery3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/js/jquery-1.10.2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/js/jquery-ui-1.10.4.custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/js/jquery-ui-1.10.4.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/js/jquery-ui-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/js/jquery.ui.datepicker-fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/js/particles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/js/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/js/sliderComponents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/js/wow.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/sass/abstracts/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/sass/abstracts/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/sass/abstracts/_variables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/sass/abstracts/_variables.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/sass/abstracts/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/sass/abstracts/dist/_variables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/sass/abstracts/dist/_variables.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/sass/base/_animations.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/sass/base/_base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/sass/base/_base.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/sass/base/_base.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/sass/base/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/sass/base/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/sass/base/dist/_base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/sass/base/dist/_base.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/sass/dist/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/sass/dist/main.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/sass/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/sass/pages/Form/_form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/sass/pages/Form/_form.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/sass/pages/Form/_form.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/sass/pages/Form/dist/_form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/static/sass/pages/Form/dist/_form.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/templates/form/New-Pass.html" beforeDir="false" afterPath="$PROJECT_DIR$/form/templates/form/New-Pass.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/templates/form/code.html" beforeDir="false" afterPath="$PROJECT_DIR$/form/templates/form/code.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/templates/form/forget.html" beforeDir="false" afterPath="$PROJECT_DIR$/form/templates/form/forget.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/templates/form/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/form/templates/form/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/templates/form/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/form/templates/form/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/form/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/form/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/css/main.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/001-time.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/Abdo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/Icon_bk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/Icon_clock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/about_img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/appoint_img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/boy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/choose_bg--1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/choose_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/chs_slider_img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/final logo-06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/footer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/hany.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/icon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/icon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/icon_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/info.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/left-illustration@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/memo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/slider_img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/tddeam_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/team_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/dist/e.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/dist/e.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/html5shiv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/jQuery3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/particles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/sliderComponents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/wow.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/abstracts/_colors.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/abstracts/_colors.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/abstracts/_colors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/abstracts/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/abstracts/dist/_colors.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/abstracts/dist/_colors.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/base/_animations.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/base/_base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/base/_base.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/base/_base.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/base/dist/_base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/base/dist/_base.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/_about.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/_about.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/_about.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/_contact.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/_emergency.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/_emergency.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/_emergency.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/_navbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/_navbar.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/_service.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/_service.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/_service.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/_setting-box.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/_setting-box.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/_setting-box.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/_team.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/_team.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/_team.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/_title.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/_title.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/_title.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/_why-us.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/_why-us.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/_why-us.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/dist/_about.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/dist/_about.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/dist/_contact.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/dist/_contact.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/dist/_emergency.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/dist/_emergency.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/dist/_navbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/dist/_navbar.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/dist/_service.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/dist/_service.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/dist/_setting-box.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/dist/_setting-box.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/dist/_team.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/dist/_team.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/dist/_title.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/dist/_title.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/dist/_why-us.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/dist/_why-us.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/dist/navbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/dist/navbar.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/navbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/navbar.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/options/_colors.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/options/_colors.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/options/_colors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/options/dist/_colors.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/components/options/dist/_colors.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/dist/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/dist/main.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/sass/main.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/home/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,25 +203,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/settings.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/form/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="131" column="21" selection-start-line="131" selection-start-column="21" selection-end-line="131" selection-end-column="21" />
+            <state relative-caret-position="246">
+              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/urls.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dash/templates/dash/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="187">
+              <caret line="140" column="62" selection-start-line="140" selection-start-column="62" selection-end-line="140" selection-end-column="62" />
               <folding>
-                <element signature="e#631#663#0" expanded="true" />
+                <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dash/static/img/icons/Artboard 7_users.svg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -54,60 +257,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/form/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
-              <folding>
-                <element signature="e#0#59#0" expanded="true" />
-                <element signature="e#380#1135#0" />
-              </folding>
+            <state relative-caret-position="328">
+              <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Etisalat/project/project/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="130" column="21" selection-start-line="130" selection-start-column="21" selection-end-line="130" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/form/templates/form/forget.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1189">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-              <folding>
-                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/templates/home/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1230">
-              <caret line="90" column="29" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
-              <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#6;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#6;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/form/templates/form/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/dash/static/img/icons/Artboard 8_users.svg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -125,11 +283,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/form/templates/form/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="47" />
+            <state relative-caret-position="181">
+              <caret line="127" column="17" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
               <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dash/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,6 +322,12 @@
       <find>full_name</find>
       <find>form</find>
       <find>forget</find>
+      <find>script</find>
+      <find>img</find>
+      <find>css/</find>
+      <find>css2/</find>
+      <find>js/</find>
+      <find>log out</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -168,13 +343,17 @@
         <option value="$PROJECT_DIR$/home/urls.py" />
         <option value="$PROJECT_DIR$/form/models.py" />
         <option value="$PROJECT_DIR$/home/templates/home/index.html" />
-        <option value="$PROJECT_DIR$/form/templates/form/register.html" />
-        <option value="$PROJECT_DIR$/form/urls.py" />
         <option value="$PROJECT_DIR$/form/templates/form/forget.html" />
         <option value="$PROJECT_DIR$/form/templates/form/login.html" />
-        <option value="$PROJECT_DIR$/project/settings.py" />
-        <option value="$PROJECT_DIR$/form/views.py" />
         <option value="$PROJECT_DIR$/project/urls.py" />
+        <option value="$PROJECT_DIR$/dash/urls.py" />
+        <option value="$PROJECT_DIR$/form/views.py" />
+        <option value="$PROJECT_DIR$/dash/templates/dash/index2.html" />
+        <option value="$PROJECT_DIR$/dash/views.py" />
+        <option value="$PROJECT_DIR$/form/templates/form/register.html" />
+        <option value="$PROJECT_DIR$/project/settings.py" />
+        <option value="$PROJECT_DIR$/dash/templates/dash/index.html" />
+        <option value="$PROJECT_DIR$/form/urls.py" />
       </list>
     </option>
   </component>
@@ -199,6 +378,17 @@
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="form" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -215,11 +405,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\blood\project\dash" />
+      <recent name="D:\projects\blood\project" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\blood\project\dash\templates\dash" />
+      <recent name="D:\projects\blood\project\dash\static" />
       <recent name="D:\projects\blood\project\form\templates\form" />
       <recent name="D:\projects\blood\project\form\static" />
       <recent name="D:\projects\blood\project\home\templates\home" />
-      <recent name="D:\projects\blood\project\home\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -244,7 +439,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286385" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -262,18 +457,18 @@
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Python Console" order="4" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286385" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -330,26 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/form/templates/form/forget.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1189">
@@ -381,27 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form/templates/form/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="47" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Etisalat/project/project/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="509">
@@ -409,20 +563,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/settings.py">
+    <entry file="file://$PROJECT_DIR$/dash/static/sass/base/dist/_base.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/dash/chat.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/dash/index2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="131" column="21" selection-start-line="131" selection-start-column="21" selection-end-line="131" selection-end-column="21" />
+        <state relative-caret-position="140">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form/views.py">
+    <entry file="file://$PROJECT_DIR$/dash/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="164">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
           <folding>
-            <element signature="e#0#59#0" expanded="true" />
-            <element signature="e#380#1135#0" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -433,6 +592,103 @@
           <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
           <folding>
             <element signature="e#631#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/static/img/icons/Artboard 2_users.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/static/img/icons/Artboard 3_users.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/static/img/icons/Artboard 4_users.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/static/img/icons/Artboard 8_users.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/static/img/icons/Artboard 7_users.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form/templates/form/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="127" column="17" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/dash/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="140" column="62" selection-start-line="140" selection-start-column="62" selection-end-line="140" selection-end-column="62" />
+          <folding>
+            <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>

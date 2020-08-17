@@ -1,0 +1,14 @@
+.logo_raduis-image {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    background-color: $white-color;
+    padding: 2rem;
+    position: absolute;
+    box-shadow: 2px 2px 3px 4px #ddd;
+    bottom: -5rem;
+    &--photo {
+        width: 100%;
+        height: 100%;
+    }
+}

@@ -1,0 +1,26 @@
+.searchInput {
+    width: 100%;
+    background-color: #ffffff;
+    height: 50px;
+    padding: 8px 30px;
+    padding-right: 45px;
+    outline: none;
+    box-sizing: border-box;
+    border: 1px solid #eeeeee;
+    border-radius: 30px;
+    font-size: 1.6rem;
+}
+.input-group-text {
+    background-color: transparent;
+    border: 0;
+    right: 16px;
+    top: 13px;
+    position: absolute;
+    z-index: 2;
+}
+.fa-search {
+    font-size: 1.8rem !important;
+    color: #777;
+}
+
+

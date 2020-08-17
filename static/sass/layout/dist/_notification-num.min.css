@@ -1,0 +1,1 @@
+.x,.y{display:inline-block;margin-bottom:20px;position:relative}.x::after,.y::after{content:'3';width:17px;height:18px;line-height:20px;border-radius:50%;color:#fff;background-color:#ff0052;font-size:14px;position:absolute;top:-12px;right:-7px}.x{width:100%!important}.y::after{content:'5'!important}

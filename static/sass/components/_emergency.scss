@@ -1,0 +1,40 @@
+.emergency-call {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.70), rgba(3, 3, 3, 0.75)), url('../images/appoint_img.jpg');
+    background-size: cover;
+    position:relative;
+    &:before {
+        content: '';
+        border-right: 120px solid transparent;
+        border-top: 120px solid $main-color;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    h1 {
+        font-size: 22px;
+        color: #ffffff;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    p {
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        color: #c4c4c4;
+        text-transform: capitalize;
+        margin-top: 1rem;
+    }
+    .h2-div {
+        font-size: 24px;
+        font-weight: 700;
+        background-color: $main-color;
+        text-transform: capitalize;
+        padding: 1rem;
+        position: absolute;
+        bottom: 0;
+        right: 15px;
+    }
+    h2 {
+        color: #ffffff;
+    }
+}
+

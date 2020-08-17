@@ -24,7 +24,8 @@ def register(request):
         obj.blood_type = cd.get("blood_type")
         obj.city = cd.get("city")
         obj.save()
-        return HttpResponse('done')
+        messages.success(request, 'registeration is successfully')
+        return redirect('login')
 
     return render(request, 'form/register.html', {})
 
@@ -36,7 +37,7 @@ def login_user(request):
         user = authenticate(request, username=get_user_model().objects.filter(email=cd['email'])[0].username, password=cd['password'])
         if user:
             login(request, user)
-            return HttpResponse('done login')
+            return redirect('dashboard')
         else:
             messages.warning(request, 'invalid email or password')
             return redirect('login')

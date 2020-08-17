@@ -1,0 +1,45 @@
+.content-bottom {
+    padding: 2rem;
+    box-shadow: .2rem .2rem  #ddd;
+    flex-wrap: wrap;
+    background-color: #FFF;
+}
+.profile-nav {
+    background-color: #FFF;
+    margin-top: 2rem;
+    &__active {
+        background-color: $purple-color;
+        color:$white-color !important;
+    }
+    & > div {
+        text-decoration: none;
+        text-transform: capitalize;
+        color: #a09e9e;
+        text-align: center;
+        padding: 20px 15px;
+        font-size: 1.4rem;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $purple-color;
+            color:$white-color !important;
+        }
+    }
+}
+
+.send-request , .OverView ,.OverView2{
+    padding: 3rem ;
+    padding-top: 6rem;
+    background-color: $white-color;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    padding-bottom: 12rem;
+}
+.check-eligibility {
+    padding: 5rem;
+}
+
+.track-pay,.incoming-req,.contract-requests {
+    display: none;
+}
