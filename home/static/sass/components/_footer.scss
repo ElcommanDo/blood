@@ -1,0 +1,169 @@
+
+.footer {
+    background-color: #f5f9fa;
+    padding: 5rem;
+
+    &__title {
+        font-family: 'Roboto';
+        font-size: 17px;
+        font-weight: 600;
+        color: rgb(0, 0, 0);
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        line-height: 1.6;
+        border-radius: 0px;
+        word-break: break-word;
+        margin-bottom: 1.5rem;
+        text-transform: uppercase;
+    }
+
+    li {
+        font-family: 'Roboto';
+        pointer-events: auto;
+        font-family: Roboto;
+        font-size: 18px;
+        color: rgb(92, 90, 124);
+        line-height: 1.6;
+        border-radius: 0px;
+        font-style: normal;
+        margin-top: 1rem;
+    }
+    .third {
+        li {
+            height: 34px;
+            width: 34px;
+            border-radius: 100px;
+            padding-top: 6px;
+        }
+        .face {
+            background:$face-book;
+        }
+        .twi {
+            background:$twitter;
+        }
+        .goog {
+            background:$google
+        }
+        .linked {
+            background:$linked-in
+        }
+        .insta {
+            background:$instagram
+        }
+        .youtu {
+            background:$youtube
+        }
+        .whats {
+            background-color:$whatsapp
+        }
+        .telegram {
+            background-color: $telegram;
+        }
+        .slack {
+            background-image: url('../images/slack-new-logo.svg');
+            height: 34px;
+            width: 34px;
+            background-color: rgba(255, 255, 255, 0);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            border-radius: 0px;
+        }
+        a {
+            pointer-events: auto;
+            font-family: Lato;
+            font-size: 14px;
+            color: rgb(64, 131, 169);
+            line-height: 1;
+            border-radius: 0px;
+            font-weight: normal;
+            font-style: normal;
+        }
+        i {
+            text-align: center;
+            cursor: inherit;
+            background: none;
+            border: none;
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            border-radius: 0px;
+        }
+    }
+}
+
+/************ Contact Page *************/
+
+.contact-footer {
+    width: 100%;
+    background-image: url('../images/footer.jpg');
+    background-size: cover;
+    text-align: center;
+    padding-top: 18rem;
+    padding-bottom: 10rem;
+
+    &__main {
+        overflow: visible;
+        padding-bottom: 0px;
+        font-family: "Open Sans";
+        font-size: 24px;
+        font-weight: 800;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        line-height: 1.5;
+        border-radius: 0px;
+    }
+    &__sub {
+        overflow: visible;
+        padding-bottom: 0px;
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 300;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        line-height: 1.5;
+        border-radius: 0px;
+    }
+    &__input {
+        height: 44px !important;
+        width: 381px !important; 
+        border: 1px solid rgb(161, 245, 230) !important;
+        background: none transparent;
+        border-radius: 40px;
+        font-family: "Open Sans";
+        font-size: 16px;
+        color: #FFF !important;
+        padding: 0px 15px;
+        transition: border-color 200ms ease 0s, box-shadow 200ms ease 0s;
+        font-weight: normal;
+        text-decoration: none;
+        font-style: normal;
+        text-align: left;
+        box-shadow: none;
+    }
+    &__button {
+        height: 44px;
+        width: 150px;
+        padding: 0px;
+        cursor: pointer;
+        background: none rgba(227, 255, 250, 0.8);
+        border: none;
+        text-align: center;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 600;
+        color: rgb(0, 0, 0);
+        line-height: 1;
+        border-radius: 30px;
+        transition: background 200ms ease 0s;
+    }
+    ::placeholder{
+        color: #FFF;
+    }
+}
+
+.footer__title {
+    color: #FFF;
+}
+#footer a , #footer li {
+    color: #999 !important;
+}
