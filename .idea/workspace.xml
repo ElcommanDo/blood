@@ -1,7 +1,513 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53d5a015-ff43-4e06-8cb9-82da2a550ec9" name="Default Changelist" comment="" />
+    <list default="true" id="53d5a015-ff43-4e06-8cb9-82da2a550ec9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static/images/l.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dash/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/dash/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dash/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/dash/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dash/templates/dash/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dash/templates/dash/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dash/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dash/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dash/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/dash/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db2.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db2.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/templates/form/forget.html" beforeDir="false" afterPath="$PROJECT_DIR$/form/templates/form/forget.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/templates/form/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/form/templates/form/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/templates/form/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/form/templates/form/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/home/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/autocomplete.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/changelists.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/forms.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/responsive_rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/vendor/select2/LICENSE-SELECT2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/vendor/select2/select2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/vendor/select2/select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/widgets.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/fonts/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/fonts/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Bold-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Light-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Regular-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/calendar-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-addlink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-alert.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-calendar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-changelink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-clock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-deletelink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-no.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-unknown-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-unknown.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-viewlink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-yes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/inline-delete.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/selector-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/sorting-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/tooltag-add.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/SelectBox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/actions.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/autocomplete.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/cancel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/change_form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/collapse.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/inlines.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/inlines.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/jquery.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/popup_response.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/prepopulate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/prepopulate_init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/urlify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/af.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/bn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/bs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/dsb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hsb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ka.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ne.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sr-Cyrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/tk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/zh-TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/base/images/animated-overlay.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/base/images/ui-icons_444444_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/base/images/ui-icons_555555_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/base/images/ui-icons_777620_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/base/images/ui-icons_777777_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/base/images/ui-icons_cc0000_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/base/images/ui-icons_ffffff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/base/jquery-ui-1.10.4.custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/base/jquery-ui-1.10.4.custom.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css1/base/images/animated-overlay.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css1/base/images/ui-icons_444444_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css1/base/images/ui-icons_555555_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css1/base/images/ui-icons_777620_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css1/base/images/ui-icons_777777_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css1/base/images/ui-icons_cc0000_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css1/base/images/ui-icons_ffffff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css1/base/jquery-ui-1.10.4.custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css1/base/jquery-ui-1.10.4.custom.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css1/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css1/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css1/main.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css2/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css2/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css2/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css2/main.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css2/quasar.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css2/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/001-time.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/Abdo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/Icon_bk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/Icon_clock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/about_img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/appoint_img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/boy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/choose_bg--1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/choose_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/chs_slider_img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/final logo-06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/footer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/hany.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/icon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/icon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/icon_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/info.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/left-illustration@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/memo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/slider_img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/tddeam_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/team_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/Artboard 2_users.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/Artboard 5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/EGYCARE_128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/Group.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/Logo_globmid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/about.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/axa__logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bio.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bupa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/cmt1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/cmt2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/cropped-SMS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/draw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/fun-facts-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/gbr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/home-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icon_login.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icon_placesapi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/Artboard 10_users.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/Artboard 11_users.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/Artboard 12_users.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/Artboard 13_users.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/Artboard 14_users.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/Artboard 15_users.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/Artboard 16_users.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/Artboard 17_users.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/Artboard 18_users.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/Artboard 19_users.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/Artboard 20_users.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/Artboard 21_users.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/Artboard 22_users.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/Artboard 2_users.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/Artboard 3_users.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/Artboard 4_users.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/Artboard 5_users.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/Artboard 6_users.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/Artboard 7_users.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/Artboard 8_users.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icons/Artboard 9_users.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/img-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/img-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/img-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/img-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/info.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/light-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo _misr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo-nextcare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo__alico.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo_dms.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo_egymed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo_med.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo_royal.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo_safe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logprim.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/marker-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/medcomlogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/medshield logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/next-care-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/person.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/person.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/unknown.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/white-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/dist/app.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/dist/app.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/dist/e.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/dist/e.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/dist/form.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/dist/form.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/dist/sliderComponents.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/dist/sliderComponents.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/handlebars-v4.7.6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/html5shiv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jQuery3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery-1.10.2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery-ui-1.10.4.custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery-ui-1.10.4.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery-ui-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery.ui.datepicker-fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/particles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/sliderComponents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/wow.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js1/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js1/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js1/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js1/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js1/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js1/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js1/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js1/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js1/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js1/dist/app.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js1/dist/app.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js1/dist/e.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js1/dist/e.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js1/e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js1/handlebars-v4.7.6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js1/html5shiv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js1/jQuery3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js1/jquery-1.10.2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js1/jquery-ui-1.10.4.custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js1/jquery-ui-1.10.4.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js1/jquery-ui-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js1/jquery.ui.datepicker-fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js1/particles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js1/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js1/sliderComponents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js1/wow.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js2/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js2/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js2/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js2/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js2/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js2/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js2/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js2/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js2/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js2/dist/e.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js2/dist/e.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js2/dist/form.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js2/dist/form.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js2/dist/sliderComponents.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js2/dist/sliderComponents.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js2/e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js2/html5shiv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js2/jQuery3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js2/particles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js2/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js2/sliderComponents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js2/wow.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/abstracts/_colors.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/abstracts/_colors.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/abstracts/_colors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/abstracts/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/abstracts/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/abstracts/_variables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/abstracts/_variables.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/abstracts/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/abstracts/dist/_colors.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/abstracts/dist/_colors.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/abstracts/dist/_variables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/abstracts/dist/_variables.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/base/_animations.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/base/_base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/base/_base.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/base/_base.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/base/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/base/_utilities.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/base/_utilities.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/base/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/base/dist/_base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/base/dist/_base.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/base/dist/_utilities.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/base/dist/_utilities.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_about.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_about.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_about.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_chat-room.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_chat-room.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_chat-room.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_checkBox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_checkBox.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_checkBox.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_contact.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_course-content.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_course-content.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_course-content.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_emergency.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_emergency.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_emergency.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_fixedMenu.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_form.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_form.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_header.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_leftSection.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_navbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_navbar.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_profile (2).scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_profile-card.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_profile-card.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_profile-card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_profile.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_project.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_project.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_search-input.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_search-input.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_search-input.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_service.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_service.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_service.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_setting-box.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_setting-box.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_setting-box.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_team.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_team.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_team.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_title.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_title.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_title.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_track-payment.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_why-us.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_why-us.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/_why-us.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_about.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_about.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_chat-room.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_chat-room.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_checkBox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_checkBox.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_contact.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_contact.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_course-content.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_course-content.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_emergency.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_emergency.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_form.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_header.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_navbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_navbar.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_profile-card.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_profile-card.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_profile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_profile.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_project.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_project.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_search-input.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_search-input.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_service.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_service.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_setting-box.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_setting-box.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_team.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_team.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_title.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_title.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_why-us.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/_why-us.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/main-page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/main-page.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/navbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/dist/navbar.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/main-page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/main-page.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/main-page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/navbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/navbar.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/options/_colors.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/options/_colors.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/options/_colors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/options/dist/_colors.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/options/dist/_colors.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/components/raduis-image-profile.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/dist/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/dist/main.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/layout/_card.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/layout/_card.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/layout/_card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/layout/_dropdown.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/layout/_dropdown.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/layout/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/layout/_notification-num.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/layout/_notification-num.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/layout/_notification-num.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/layout/_responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/layout/_responsive.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/layout/_responsive.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/layout/dist/_card.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/layout/dist/_card.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/layout/dist/_dropdown.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/layout/dist/_dropdown.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/layout/dist/_notification-num.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/layout/dist/_notification-num.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/layout/dist/_responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/layout/dist/_responsive.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/pages/Form/_form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/pages/Form/_form.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/pages/Form/_form.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/pages/Form/dist/_form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/pages/Form/dist/_form.min.css" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,14 +516,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/form/urls.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="5084">
+              <caret line="124" selection-start-line="124" selection-end-line="124" />
             </state>
           </provider>
         </entry>
@@ -25,63 +528,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dash/templates/dash/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="140" column="62" selection-start-line="140" selection-start-column="62" selection-end-line="140" selection-end-column="62" />
+            <state relative-caret-position="9922">
+              <caret line="252" column="59" selection-start-line="252" selection-start-column="59" selection-end-line="252" selection-end-column="59" />
               <folding>
                 <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/settings.py">
+        <entry file="file://$PROJECT_DIR$/dash/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dash/static/img/icons/Artboard 7_users.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/form/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
-              <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+            <state relative-caret-position="205">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/form/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dash/static/img/icons/Artboard 8_users.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,20 +552,78 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/form/templates/form/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="127" column="17" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
+            <state relative-caret-position="3116">
+              <caret line="91" column="26" lean-forward="true" selection-start-line="80" selection-start-column="38" selection-end-line="91" selection-end-column="26" />
               <folding>
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+                <element signature="n#select#0;n#div#3;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dash/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dash/views.py">
+        <entry file="file://$PROJECT_DIR$/dash/apps.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dash/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="123">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home/templates/home/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="17" column="20" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="20" />
+              <folding>
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#0;n#nav#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#6;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#6;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dash/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -131,10 +651,24 @@
       <find>forget</find>
       <find>script</find>
       <find>img</find>
-      <find>css/</find>
       <find>css2/</find>
-      <find>js/</find>
       <find>log out</find>
+      <find>css1/</find>
+      <find>js1/</find>
+      <find>css/</find>
+      <find>js/</find>
+      <find>request</find>
+      <find>donation request</find>
+      <find>ask</find>
+      <find>logo</find>
+      <find>body</find>
+      <find>city</find>
+      <find>mohamed ahmed</find>
+      <find>make</find>
+      <find>message</find>
+      <find>all boo</find>
+      <find>all bloo</find>
+      <find>make</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -149,24 +683,26 @@
         <option value="$PROJECT_DIR$/form/templates/form/code.html" />
         <option value="$PROJECT_DIR$/home/urls.py" />
         <option value="$PROJECT_DIR$/form/models.py" />
-        <option value="$PROJECT_DIR$/home/templates/home/index.html" />
-        <option value="$PROJECT_DIR$/form/templates/form/forget.html" />
-        <option value="$PROJECT_DIR$/form/templates/form/login.html" />
         <option value="$PROJECT_DIR$/project/urls.py" />
-        <option value="$PROJECT_DIR$/dash/urls.py" />
         <option value="$PROJECT_DIR$/form/views.py" />
         <option value="$PROJECT_DIR$/dash/templates/dash/index2.html" />
-        <option value="$PROJECT_DIR$/dash/views.py" />
-        <option value="$PROJECT_DIR$/form/templates/form/register.html" />
         <option value="$PROJECT_DIR$/project/settings.py" />
-        <option value="$PROJECT_DIR$/dash/templates/dash/index.html" />
         <option value="$PROJECT_DIR$/form/urls.py" />
+        <option value="$PROJECT_DIR$/form/templates/form/forget.html" />
+        <option value="$PROJECT_DIR$/home/templates/home/index.html" />
+        <option value="$PROJECT_DIR$/form/templates/form/login.html" />
+        <option value="$PROJECT_DIR$/form/templates/form/register.html" />
+        <option value="$PROJECT_DIR$/dash/models.py" />
+        <option value="$PROJECT_DIR$/dash/urls.py" />
+        <option value="$PROJECT_DIR$/dash/templates/dash/index.html" />
+        <option value="$PROJECT_DIR$/dash/admin.py" />
+        <option value="$PROJECT_DIR$/dash/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="10" />
+    <option name="y" value="20" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -175,6 +711,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,43 +722,80 @@
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="dash" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="dash" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="dash" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="dash" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="form" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="form" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="form" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dash/templates/dash" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../graduate/project" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\projects\blood\project\dash" />
-      <recent name="D:\projects\blood\project" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\blood\project\static\images" />
       <recent name="D:\projects\blood\project\dash\templates\dash" />
       <recent name="D:\projects\blood\project\dash\static" />
       <recent name="D:\projects\blood\project\form\templates\form" />
       <recent name="D:\projects\blood\project\form\static" />
-      <recent name="D:\projects\blood\project\home\templates\home" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\blood\project\dash" />
+      <recent name="D:\projects\blood\project" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -240,7 +814,7 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -331,37 +905,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form/templates/form/forget.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1189">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/templates/home/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="90" column="29" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#6;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#6;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form/templates/form/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Etisalat/project/project/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="509">
@@ -375,23 +918,7 @@
     <entry file="file://$PROJECT_DIR$/dash/templates/dash/chat.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dash/templates/dash/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dash/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/dash/index2.html" />
     <entry file="file://$PROJECT_DIR$/project/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="454">
@@ -411,33 +938,86 @@
     <entry file="file://$PROJECT_DIR$/dash/static/img/icons/Artboard 4_users.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dash/static/img/icons/Artboard 8_users.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dash/static/img/icons/Artboard 7_users.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dash/models.py">
+    <entry file="file://$PROJECT_DIR$/form/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dash/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="246">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dash/static/img/icons/Artboard 7_users.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/static/img/icons/Artboard 8_users.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form/templates/form/forget.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/blood-master/homePage/images/final logo-06.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/l.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/form/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+        <state relative-caret-position="492">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form/templates/form/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="58" column="11" lean-forward="true" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5084">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/templates/dash/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9922">
+          <caret line="252" column="59" selection-start-line="252" selection-start-column="59" selection-end-line="252" selection-end-column="59" />
+          <folding>
+            <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -446,42 +1026,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/form/templates/form/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="127" column="17" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
+        <state relative-caret-position="3116">
+          <caret line="91" column="26" lean-forward="true" selection-start-line="80" selection-start-column="38" selection-end-line="91" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#select#0;n#div#3;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/dash/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dash/templates/dash/index.html">
+    <entry file="file://$PROJECT_DIR$/dash/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="140" column="62" selection-start-line="140" selection-start-column="62" selection-end-line="140" selection-end-column="62" />
+        <state relative-caret-position="123">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
-            <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#html#0;n#!!top" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form/views.py">
+    <entry file="file://$PROJECT_DIR$/home/templates/home/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+        <state relative-caret-position="697">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#nav#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#6;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#6;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dash/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
+        <state relative-caret-position="123">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
@@ -489,12 +1082,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form/urls.py">
+    <entry file="file://$PROJECT_DIR$/dash/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        <state relative-caret-position="304">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
